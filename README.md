@@ -19,15 +19,7 @@ Keep it lowkey.
 ## How it works
 
 ```text
-Your message
-     ↓
-   Encode
-     ↓
-Coded message
-     ↓
-   Decode
-     ↓
-Your message
+Your message --> Encode --> Coded message --> Decode --> Your message
 ```
 
 ## Run it
@@ -47,9 +39,7 @@ Then choose:
 ## Example
 
 ```text
-hello hushbyte
-        ↓
-aGVsbG8gaHVzaGJ5dGU=
+hello hushbyte --> aGVsbG8gaHVzaGJ5dGU=
 ```
 
 Decode it and...
